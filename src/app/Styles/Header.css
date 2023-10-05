@@ -9,11 +9,12 @@
 #706948
 */
 
-* {
+/* * {
   font-family: 'Merriweather', serif !important;
-}
+} */
 .typo {
-  font-family: 'Cherry Bomb One', cursive !important;
+  /* font-family: 'Cherry Bomb One', cursive !important; */
+  /* font-family: 'Merriweather', serif !important; */
   padding-left: 8px;
   text-transform: initial;
   color: #007bb8;

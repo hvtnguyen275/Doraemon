@@ -84,7 +84,7 @@ function MusicPlayer({ tracks }: any) {
 
   return (
     <>
-      <Box className={styles.musicBox}>
+      <div className={styles.musicBox}>
         <div className={styles.trackInfo}>
           <h2 className={styles.title}>{title}</h2>
           <h3 className={styles.artist}>{artist}</h3>
@@ -95,7 +95,7 @@ function MusicPlayer({ tracks }: any) {
             onPlayPauseClick={setIsPlaying}
           />
         </div>
-      </Box>
+      </div>
     </>
   );
 }

@@ -10,7 +10,7 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material';
-import styles from '../Styles/Header.css';
+import styles from '../page.module.css';
 import { useNavigate } from 'react-router-dom';
 import doraemonIcon from '../../../public/doraemon-icon.png';
 import Image from 'next/image';
@@ -29,7 +29,7 @@ function Header({ typo }: { typo?: string }) {
             {typo ? (
               <Button onClick={navigateHome}>
                 <Image width={50} height={50} src={doraemonIcon} alt={''} />
-                <h3 className="typo">{typo}</h3>
+                <h3 className={styles.typo}>{typo}</h3>
               </Button>
             ) : (
               <IconButton onClick={navigateHome}>

@@ -90,3 +90,24 @@
 .audioControls path {
   fill: #51a1c4;
 }
+
+.typo {
+  /* font-family: 'Cherry Bomb One', cursive !important; */
+  /* font-family: 'Merriweather', serif !important; */
+  padding-left: 8px;
+  text-transform: initial;
+  color: #007bb8;
+  font-size: 14pt;
+}
+/* 
+.doraemonImg {
+  width: 60px;
+  height: 60px;
+} */
+
+@media only screen and (max-width: 414px) {
+  .buttonDoraemon {
+    display: flex !important;
+    justify-content: center;
+  }
+}
