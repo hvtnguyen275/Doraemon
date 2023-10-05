@@ -33,7 +33,7 @@ const tracks = [
 function LetterContent() {
   return (
     <Container maxWidth="md" sx={{ marginTop: '30px' }}>
-      <Box>
+      <div>
         <Grid container rowSpacing={{ xs: 0.5, md: 3 }}>
           <Grid item xs={12}>
             <h2 className="letterTitle">⋆⸜ 25歳の誕生日おめでとう⑅*⸝⋆</h2>
@@ -91,7 +91,7 @@ function LetterContent() {
             </p>
           </Grid>
         </Grid>
-      </Box>
+      </div>
     </Container>
   );
 }
