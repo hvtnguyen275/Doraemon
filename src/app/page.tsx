@@ -17,8 +17,8 @@ function App() {
     <Router>
       <div>
         <Routes>
-          <Route path="/doraemon" element={<Home />} />
-          <Route path="/doraemon/longha-25" element={<LetterToLongHa />} />
+          <Route path="/longha-25" element={<LetterToLongHa />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </Router>
