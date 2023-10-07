@@ -1,4 +1,3 @@
-'use client';
 import './page.module.css';
 // import { Route, Routes, useRoutes } from 'react-router-dom';
 import {
